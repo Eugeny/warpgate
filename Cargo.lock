@@ -2776,7 +2776,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_urlencoded",
- "serde_yaml 0.9.11",
+ "serde_yaml",
  "thiserror",
  "tokio",
  "uuid",
@@ -3680,18 +3680,6 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
-]
-
-[[package]]
-name = "serde_yaml"
-version = "0.8.26"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "578a7433b776b56a35785ed5ce9a7e777ac0598aac5a6dd1b4b18a307c7fc71b"
-dependencies = [
- "indexmap",
- "ryu",
- "serde",
- "yaml-rust",
 ]
 
 [[package]]
@@ -4665,7 +4653,7 @@ dependencies = [
  "sd-notify",
  "sea-orm",
  "serde_json",
- "serde_yaml 0.8.26",
+ "serde_yaml",
  "time 0.3.15",
  "tokio",
  "tracing",
